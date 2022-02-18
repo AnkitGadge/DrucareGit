@@ -1,0 +1,261 @@
+https://www.javatpoint.com/java-basics
+https://www.tutorialspoint.com/java/index.htm
+https://www.w3schools.com/java/java_intro.asp
+https://www.geeksforgeeks.org/introduction-to-java/?ref=lbp
+Sample Output :
+2 4 6
+
+Sample output:
+.j a v a
+
+
+
+
+int a = 9;
+a++;
+System.out.println (a);
+2. a–;
+System.out.println (a);
+3. ++a;
+System.out.println (a);
+System.out.println (a++);
+System.out.println (a--);
+System.out.println (--a);
+System.out.println (++a);
+
+
+
+
+https://www.w3schools.com/java/java_data_types.asp
+https://www.w3schools.com/java/java_variables.asp
+https://www.w3schools.com/java/java_strings.asp
+https://www.w3schools.com/java/java_booleans.asp
+https://www.w3schools.com/java/java_ref_string.asp
+https://www.w3schools.com/java/java_operators.asp
+https://www.geeksforgeeks.org/java-identifiers/?ref=lbp
+https://www.geeksforgeeks.org/variables-in-java/?ref=lbp
+https://www.geeksforgeeks.org/data-types-in-java/?ref=lbp
+
+
+
+
+
+.String word ="java";
+String Word = " comp";
+2. String word@  = “java string”;
+3.String word12 = “java string”;
+4.String 12word = “java string”;
+5. String int = “java”;
+6. String *java = “java”;
+7. String symbol$ = “100 dollars”;
+8.String word ="java";
+String word = " comp";
+9. String word_ =”java”;
+10.String word-   =”java is here”;
+11. String capital; = “delhi”;
+________________________
+
+
+
+
+public class OperatorSample {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+    int ageOfPerson = 20;
+    int childCount =2;
+    byte byteNumber = 10;
+    byteNumber = 20;
+//    System.out.println(byteNumber);
+    final int ageMinimum = 18;
+//    ageMinimum = 5;
+    // + , - ,*,%,>,<,>=, 
+    
+    
+    int age = 4;
+    boolean indianCitizen = true;
+    System.out.println(age == 18 || indianCitizen == true);
+    System.out.println(age == 18
+_____
+    
+       
+ 
+       
+
+
+------
+
+
+
+
+-- convert to switch---
+Raga Priya15:09
+STRING:
+1.print j a v a
+2,Remove all the whitespaces and then print the length of the remaining string.
+
+Sample Input :
+ LoremIpsum
+Sample Output :
+10
+3. Input: S = "ABCddE"
+Output: "abcdde"
+
+4Input: S = "LMNOppQQ"
+Output: "lmnoppqq"
+
+5. Given two strings S1 and S2 as input. Your task is to concatenate two strings without using +
+input: s1 -> java , s2-> program
+output: javaprogram
+
+DATA TYPES:
+
+2.Print the float value separated by line.
+Sample Output :
+2.3
+4.5
+7.8
+
+OPERATOR:
+Print the First 3 m
+
+
+=================
+7/2/2022
+1. Write a Java program to find out whether the given String is Palindrome or not. 
+2. Write a Java Program to reverse the letters present in the given String.
+
+
+8/2/2022
+2.. create a dog class, with methods and data members
+1. create git account
+
+
+
+
+ Java Program to count the total number of characters in a string.Java Program to count the total number of vowels and consonants in a string.
+Java Program to replace lower-case characters with upper-case and vice-versa.
+
+
+convert ot UPPER and lower
+java
+jAVA
+
+
+//encapsulation//polymorphism //polymorphism//1. static  -> overload -> 
+
+compile time//2.  dynamic -> override -> runtime//abstract//1. class //2. method//final -> in class/ method/ variable  -> cannot extend, override, reassign//Exception//try, catch, finally , throw new , throws// finally> return//Interface//API -> Application Programming Interface//Interface
+
+
+
+verify whether a number is prime number or not
+
+
+=============================
+1. assignment
+
+   1 2 3 4 5 6 7 
+   2 3 4 5 6 7
+   3 4 5 6 7
+   4 5 6 7 
+   5 6 7
+   6 7
+   7
+2. 
+
+1 2 3 4 5 6 7 
+ 2 3 4 5 6 7
+  3 4 5 6 7
+   4 5 6 7 
+    5 6 7
+     6 7
+      7
+Raga Priya13:56
+class Outer_Demo{   //outer class
+	int number;
+
+	// inner class
+	class Inner_Demo{
+		public void run() {
+			System.out.println("inner class ");
+		}
+	}
+	void innerRun() {
+		Inner_Demo inner = new Inner_Demo();
+		inner.run();
+	}
+}
+
+public class My_Class {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		//instantiate the outer class
+		Outer_Demo outr = new Outer_Demo();
+		outr.innerRun();
+	}
+----------------------------------------
+/*
+ * method local inner class
+ */
+public class OuterClass {   //  -> outer class
+	void my_Method() {
+		int number = 10;
+		class MethodInnerDemo{  // -> inner class
+			public void run() {
+				System.out.println("method local inner class example");
+			}
+		}
+		MethodInnerDemo inner = new MethodInnerDemo();  // method of outer class
+		inner.run();
+	}
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		OuterClass outer = new OuterClass();
+		outer.my_Method();
+	}
+---------------
+/*
+ * anonymous inner class 
+ */
+
+abstract class AnonymousInnerClass{
+	public   void myMethod() {};
+}
+
+public class OuterClassAn {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		AnonymousInnerClass anonymousInnerClass = new AnonymousInnerClass() {
+			public void myMethod() {
+				System.out.println("example of anonymous inner class");
+			}
+		};
+		anonymousInnerClass.myMethod();
+	}
+------------------------
+ sorted set practice
+Raga Priya15:38
+ Given an element write a program to check if element(value) exists in ArrayList?
+Q5 Given an element write a program to check if element exists in HashSet?
+Write a program to initialize an ArrayList in java?
+
+Write a program to initialize a HashSet in java?
+Raga Priya15:40
+ Write a program to add elements to ArrayList ?
+Write a program to add elements to HashSet? 
+ Write a Java program to create a new array list, add some colors (string) and print out the collection.
+Write a Java program to iterate through all elements in a array list.
+
+//////////////////////////////////////////////////////////
+ Write a Java program to copy one array list into another
+5 Given an element write a program to check if element exists in HashSet?
+ Write a program to add elements to the HashMap given the key and value data type is String
+Write a program to initialize a HashSet in java?
+ Write a program to add elements to HashSet? 
+Write a program to get size of HashMa
+ How to check if HashMap is empty
+How do you count the occurrence of a given character in a string?
+How do you check if a string contains only digits? 
+
