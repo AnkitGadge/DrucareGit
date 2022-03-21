@@ -1,0 +1,47 @@
+
+
+needed normally dependencies 
+ 1. spring web -> web apps
+ 2. thyme leaf -> for frontend()form submission for html, template engine
+3. jpa -> for connecting with db -> Java Persistence API 
+4. h2db -> build in db 
+5. springboot actuator -> debugging purpose
+
+
+packaging ->war 
+.java -> .class
+WAR FILE -> server side , group of files
+spring core strength is auto configuration
+
+ConfigurableApplicationContext
+
+automatic class scanning property 
+ 
+		ConfigurableApplicationContext context =SpringApplication.run(DemoApplication.class, args);
+//		Home h;
+//		h.connect();
+		Home h = context.getBean(Home.class);
+		 h.connect();
+
+
+
+Important Annotations
+@Scope(value=patternName)
+@Componhow many annottions are tehree in java and springboothow ent
+@Autowire(Search by type)
+@Qualifier(Search by name)
+
+
+Dynamic request=input give in Searchbar
+Static request=already present
+
+
+web container present in server helps to handle dynamic requests
+
+Servlet =It helps to create dynamic web application .It is present in web container.It has request response objects.
+it handles web requests
+
+
+servlet is in .java format
+doubt:servlet and servlet mapping
+

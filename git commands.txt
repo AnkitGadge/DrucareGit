@@ -1,0 +1,55 @@
+1
+C:\>d:
+2
+//main
+D:\gitproject>git clone https://github.com/AnkitGadge/DrucareGit.git
+Cloning into 'DrucareGit'...
+remote: Enumerating objects: 31, done.
+remote: Counting objects: 100% (31/31), done.
+remote: Compressing objects: 100% (29/29), done.
+remote: Total 31 (delta 9), reused 0 (delta 0), pack-reused 0
+Receiving objects: 100% (31/31), 14.38 KiB | 3.59 MiB/s, done.
+Resolving deltas: 100% (9/9), done.
+3
+
+D:\gitproject>cd DrucareGit
+4
+
+D:\gitproject\DrucareGit>git status
+On branch main
+Your branch is up to date with 'origin/main'.
+5
+
+D:\gitproject\DrucareGit> git checkout ankit
+Switched to a new branch 'ankit'
+branch 'ankit' set up to track 'origin/ankit'.
+6
+
+D:\gitproject\DrucareGit>git status
+On branch ankit
+Your branch is up to date with 'origin/ankit'.
+7
+
+D:\gitproject\DrucareGit>git pull
+remote: Enumerating objects: 4, done.
+remote: Counting objects: 100% (4/4), done.
+remote: Compressing objects: 100% (2/2), done.
+remote: Total 3 (delta 1), reused 0 (delta 0), pack-reused 0
+Unpacking objects: 100% (3/3), 653 bytes | 5.00 KiB/s, done.
+From https://github.com/AnkitGadge/DrucareGit
+   24bb699..470fb7e  ankit      -> origin/ankit
+Updating 24bb699..470fb7e
+Fast-forward
+ ankitfile | 1 +
+ 1 file changed, 1 insertion(+)
+ create mode 100644 ankitfile
+8
+
+D:\gitproject\DrucareGit>git status
+On branch ankit
+Your branch is up to date with 'origin/ankit'.
+9
+
+D:\gitproject\DrucareGit>git pull
+Already up to date.
+
