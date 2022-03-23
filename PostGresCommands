@@ -1,0 +1,22 @@
+GITHUB COMMANDS
+
+
+-- CREATE TABLE postgres.patients (patientid int, patientname varchar(255));
+-- ALTER TABLE postgres.patients RENAME TO druPatient;
+--  ALTER TABLE dru_health.drupatient 
+--  Add salary int;
+--  DROP TABLE  dru_health.drupatient1;
+
+--  UPDATE dru_health.drupatient
+--  	SET  salary=50000000
+-- 	WHERE "patientid"=101;
+-- select * from dru_health.drupatient;
+
+
+-- INSERT INTO dru_health.drupatient(
+-- 	patientid, patientname, appointment, dob, salary)
+-- 	VALUES (101, 'Ankit','2022-04-26', '1996-06-10',1000000);
+
+
+-- DELETE FROM dru_health.drupatient
+-- 	WHERE patientid=101;
